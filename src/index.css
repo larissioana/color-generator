@@ -1,0 +1,103 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body 
+{
+  overflow-x: hidden;
+}
+
+.container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 1rem;
+  margin-top: 4rem;
+}
+
+.color-form 
+{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+h4
+{
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  letter-spacing: .2rem;
+}
+
+.btn 
+{
+  border: 1px solid #17181a;
+  background: none;
+  padding: .5rem 1rem;
+  border-radius: 10px 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity .4s ease;
+}
+
+.btn:hover
+{
+  opacity: .8;
+}
+
+.input-color
+{
+  padding: .5rem;
+  border-radius: .5rem;
+  border: 1px solid #17181a;
+}
+
+.input-color:focus
+{
+  outline: none;
+}
+
+.colors
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+.color 
+{
+  width: 200px;
+  height: 200px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-light
+{
+  color: #eeebeb;
+}
+
+.custom-toast
+{
+  background-color: #f0efef !important; 
+  color: #f3f2f2; 
+}
+
+.color-input
+{
+  width: 5rem;
+  border-radius: .5rem;
+  height: 2.5rem;
+  border: none;
+  cursor: pointer;
+}
